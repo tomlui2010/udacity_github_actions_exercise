@@ -35,11 +35,11 @@ jobs:
 
       # Run the tests.
       - run: |
-          cd backend && npm test
+          cd backend && npm run test
 
       # Run the linter.
       - run: |
-          cd backend && npm lint
+          cd backend && npm run lint
 
       # Send a console message at completion.
       - run: |
