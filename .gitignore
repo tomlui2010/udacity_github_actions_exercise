@@ -3,6 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+backend/node_modules/
+
 .DS_Store
 
 # C extensions
