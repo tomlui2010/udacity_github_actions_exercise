@@ -31,8 +31,7 @@ jobs:
 
       # Install the dependencies.
       - run: |
-        cd backend
-        npm install
+          cd backend && npm install
 
       # Run the tests.
       - run: npm test
