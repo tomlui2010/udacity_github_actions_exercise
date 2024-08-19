@@ -31,15 +31,15 @@ jobs:
 
       # Install the dependencies.
       - run: |
-          cd backend && npm ci
+          cd github-actions-demo/backend && npm ci
 
       # Run the tests.
       - run: |
-          cd backend && npm run test
+          cd github-actions-demo/backend && npm run test
 
       # Run the linter.
       - run: |
-          cd backend && npm run lint
+          cd github-actions-demo/backend && npm run lint
 
       # Send a console message at completion.
       - run: |
